@@ -28,6 +28,7 @@ All OOP principles are implemented.
 ![Java11](src/test/resources/images/libraries/java11.png?raw=true)
 ![JUnit](src/test/resources/images/libraries/junit.png?raw=true)
 ![Log4J](src/test/resources/images/libraries/log4j.png?raw=true)
+![Lombok](src/test/resources/images/libraries/lombok.png?raw=true)
 ![Selenium Web Driver](src/test/resources/images/libraries/selenium_web_driver.png?raw=true)
 
 ## Fancy Cucumber HTML reports
