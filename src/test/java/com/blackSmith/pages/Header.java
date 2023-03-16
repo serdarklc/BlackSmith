@@ -11,11 +11,11 @@ public class Header extends BasePage {
     @FindBy(xpath = "//img [@alt = 'Company Logo']")
     private WebElement logo;
 
-    public void getHomePage(){
+    public void getHomePage() {
         Driver.getDriver().get(ConfigurationReader.get("url"));
     }
 
-    public String pageTitle(){
+    public String pageTitle() {
         return Driver.getDriver().getTitle();
     }
 
@@ -26,12 +26,12 @@ public class Header extends BasePage {
         return false;
     }
 
-    public void clickLogo(){
+    public void clickLogo() {
         logo.click();
     }
 
-    public String navigateToModule(String moduleName){
-        WebElement menuLocator = Driver.getDriver().findElement(By.xpath("(//span[text()='"+moduleName+"'])[1]"));
+    public String navigateToModule(String moduleName) {
+        WebElement menuLocator = Driver.getDriver().findElement(By.xpath("(//span[text()='" + moduleName + "'])[1]"));
 
         String menuName = menuLocator.getAttribute("innerHTML");
 
